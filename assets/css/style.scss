@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.esquerda {
+    flex: 1;
+    border-right: 2px solid black;
+}
+
+.direita {
+    flex: 2;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: url('https://institutoinfantojuvenil.com.br/wp-content/uploads/2020/08/TOPO-ICIJ-38-scaled.jpg');
+    background-position: center;
+    background-size: cover;
+}
